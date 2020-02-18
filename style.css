@@ -1,0 +1,47 @@
+/* 
+ * These are the colors for our project
+ * #FFFCFC white
+ * #E70E02 red
+ * #020100 black
+ * #FFDC00 yellow
+ * #F7C4A0 peach
+*/
+
+.grid-container {
+    display: grid;
+}
+
+#nav-bar {
+    height: 50px;
+    background-color: #df393e;
+    position: fixed; 
+    top: 0; 
+    width: 99%;
+}
+
+#nav-bar h4{
+    display: inline;
+    position: top;
+}
+
+#nav-bar img {
+    height: 50px;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#nav-bar {
+    position: fixed;
+}
